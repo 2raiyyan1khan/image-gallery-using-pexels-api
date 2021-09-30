@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="discription" content="Image Gallery using pexels API." />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pixel Gallery</title>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <div class="left">
+          <span id="red" class="header-btn"></span>
+          <span id="yellow" class="header-btn"></span>
+          <span id="green" class="header-btn"></span>
+        </div>
+        <div class="title">
+          <h3>Pixel Gallery</h3>
+        </div>
+        <div class="search">
+          <form id="search-form">
+            <input type="text" name="" id="search-input" placeholder="Search" />
+            <button type="submit">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="gallery" id="gallery"></div>
+
+      <div class="load-more">
+        <button class="load-more-btn" id="load-more-btn">More</button>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
